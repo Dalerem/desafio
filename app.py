@@ -1,3 +1,3 @@
-def mensagem():
-    return 'Ola mundo'
-print(mensagem())
+def mensagem(nome):
+    return f'Ola mundo {nome}'
+print(mensagem('Python'))
