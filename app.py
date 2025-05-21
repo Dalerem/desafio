@@ -1,3 +1,8 @@
-def mensagem(nome):
-    return f'Ola mundo {nome}'
-print(mensagem('Python'))
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get('/')
+def mensagem():
+    return {'mensagem': 'Olá mundo'}
+
