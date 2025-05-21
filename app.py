@@ -1,1 +1,2 @@
-print('Ola mundo')
+fr = 'Ola mundo'
+print(fr)
