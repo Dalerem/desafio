@@ -1,2 +1,3 @@
-fr = 'Ola mundo'
-print(fr)
+def mensagem():
+    return 'Ola mundo'
+print(mensagem())
